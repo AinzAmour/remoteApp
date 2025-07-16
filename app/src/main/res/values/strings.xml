@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Samsung TV Remote</string>
+    <string name="discover_tv">Discover TV</string>
+    <string name="connect">Connect</string>
+    <string name="power">Power</string>
+    <string name="volume_up">Volume +</string>
+    <string name="volume_down">Volume -</string>
+    <string name="channel_up">Channel +</string>
+    <string name="channel_down">Channel -</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="enter_ip">Enter TV IP</string>
+</resources> 

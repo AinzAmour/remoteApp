@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_discover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discover_tv" />
+
+    <EditText
+        android:id="@+id/edit_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_ip" />
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="5"
+        android:layout_marginTop="24dp">
+
+        <Button android:id="@+id/btn_power" android:text="@string/power" />
+        <View android:layout_width="0dp" android:layout_height="0dp" />
+        <Button android:id="@+id/btn_home" android:text="@string/home" />
+
+        <View android:layout_width="0dp" android:layout_height="0dp" />
+        <Button android:id="@+id/btn_up" android:text="@string/up" />
+        <View android:layout_width="0dp" android:layout_height="0dp" />
+
+        <Button android:id="@+id/btn_left" android:text="@string/left" />
+        <Button android:id="@+id/btn_ok" android:text="@string/ok" />
+        <Button android:id="@+id/btn_right" android:text="@string/right" />
+
+        <View android:layout_width="0dp" android:layout_height="0dp" />
+        <Button android:id="@+id/btn_down" android:text="@string/down" />
+        <View android:layout_width="0dp" android:layout_height="0dp" />
+
+        <Button android:id="@+id/btn_back" android:text="@string/back" />
+        <Button android:id="@+id/btn_channel_up" android:text="@string/channel_up" />
+        <Button android:id="@+id/btn_channel_down" android:text="@string/channel_down" />
+
+        <Button android:id="@+id/btn_volume_up" android:text="@string/volume_up" />
+        <View android:layout_width="0dp" android:layout_height="0dp" />
+        <Button android:id="@+id/btn_volume_down" android:text="@string/volume_down" />
+    </GridLayout>
+</LinearLayout> 
