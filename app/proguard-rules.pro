@@ -1,0 +1,1 @@
+# Proguard rules for Samsung TV Remote app 
